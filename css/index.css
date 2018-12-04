@@ -1,0 +1,44 @@
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+main {
+  background-color: gray;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+section {
+  min-height: 100px;
+}
+
+.navegacao-site {
+  color: white;
+  text-transform: uppercase;
+  width: 700px;
+  float: right;
+}
+
+.navegacao-site li {
+  margin: 0 20px;
+}
+
+.logo {
+  width: 180px;
+  height: 100px;
+  float: left;
+}
+
+.logo img {
+  width: 180px;
+  height: 100px;
+}
