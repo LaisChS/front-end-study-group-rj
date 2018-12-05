@@ -32,9 +32,15 @@ a {
 section {
   width: 1024px;
   min-height: 100px;
-  margin: 0 auto;
+  margin: 0 auto;  
+  padding: 40px 0;  
+  text-align: center;
 }
 
+.title-section {
+  color: #fa165f;
+  font-size: 25px;
+}
 /* End Generic */
 
 /* Header */
@@ -70,29 +76,30 @@ section {
 }
 
 .slider {
-  height: 520px;
   background-image: url(./../images/Slider.png);
 }
 
 .slider-content {
   height: 520px;
-  background-color: palevioletred;
+  background-color: #fa165f;
   opacity: 0.6;
 }
 /* End Header*/
 
+/* Info */
+.info-begin {
+  padding: 0;
+}
+/* End Info*/
+
 /*Services*/
 .services {
-  background-color: lightgray;
-}
-
-.services .title-section {
-  color: darkmagenta;
-  font-size: 25px;
+  color: white;
+  background-color: #64d6d6;
 }
 
 .services .subtitle-section {
-  color: darkorange;
+  color: #cb7b37;
   font-size: 20px;
 }
 
@@ -103,16 +110,23 @@ section {
 .services-content img {
   width: 150px;
   height: 150px;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.title-services-box {
+  color: #e28c42;
 }
 
 .services-box {
   width: 320px;
   display: inline-block;
-  padding-left: 40px;
   box-sizing: border-box;
 }
+/*End Services*/
 
-.title-services-box {
-  color: darkorange;
+/*Work*/
+.work-section {
+  background-color: #fdad1a;
 }
-/*End services*/
+/*End Work*/
