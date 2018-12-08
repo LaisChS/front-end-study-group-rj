@@ -1,13 +1,4 @@
 /* Generic */
-header {
-  width: 1024px;
-  height: 80px;
-  margin: 0 auto;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid black;
-}
-
 ul {
   list-style: none;
 }
@@ -18,10 +9,28 @@ li {
 
 a {
   text-decoration: none;
-}    
+}
+
+section {
+  border: 1px solid black;
+}
+
+.container {
+  width: 1024px;
+  min-height: 500px;
+  margin: 0 auto;
+}
 /* End Generic */
 
 /* Header */
+header {
+  height: 80px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
 .site-navegation {
   width: 550px;
   height: 40px;
@@ -42,7 +51,7 @@ a {
 }
 
 .site-navegation a {
-  color: black;
+  color: white;
 }
 
 .logo {
@@ -56,3 +65,16 @@ a {
   height: 60px;
 }
 /* End Header */
+
+/* Slider */
+
+/* End Slider*/
+
+/* Services*/
+.services-box {
+  width: 320px;  
+  min-height: 300px;
+  display: inline-block;
+  border: 1px solid black;
+}
+/* End Services*/
