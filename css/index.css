@@ -7,7 +7,6 @@ a {
   width: 1024px;
   min-height: 80px;
   margin: 0 auto;
-  background-color: red;
 }
 
 section {
@@ -51,9 +50,17 @@ header {
   text-transform: uppercase;
 }
 
+.site-navegation li a:hover {
+  border: 1px solid yellow;
+}
+
 .site-navegation li {
   display: inline-block;
   margin-right: 10px;
+}
+
+.site-navegation li a {
+  padding: 10px;
 }
 /* End Header */
 
