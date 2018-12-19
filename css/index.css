@@ -1,31 +1,59 @@
 /* Generic */
-section {
-  border: 1px solid black;
+a {
+  text-decoration: none;
 }
 
 .container {
   width: 1024px;
-  min-height: 500px;
+  min-height: 80px;
   margin: 0 auto;
+  background-color: red;
 }
+
+section {
+  border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* End Generic */
 
 /* Header */
 header {
   height: 80px;
-  margin: 0 auto;
+  background-color: black;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .logo {
   width: 160px;
-  height: 600px;
+  height: 60px;
   float: left;
 }
 
 .logo img {
   width: 160px;
   height: 60px;
+}
+
+.site-navegation {
+  float: right;
+  padding: 20px;
+}
+
+.site-navegation a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.site-navegation li {
+  display: inline-block;
+  margin-right: 10px;
 }
 /* End Header */
 
