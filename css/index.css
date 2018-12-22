@@ -9,14 +9,23 @@ a {
   margin: 0 auto;
 }
 
+h1 {
+  color: #d91e55;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+h2 {
+  color: #fdad1a;
+  margin: 10px 0;
+}
+
 section {
   border: 1px solid black;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 /* End Generic */
@@ -65,7 +74,10 @@ header {
 /* End Header */
 
 /* Slider */
-
+.slider {
+  height: 300px;
+  background-color: #d91e55;
+}
 /* End Slider*/
 
 /* Services*/
