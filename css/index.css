@@ -7,17 +7,22 @@ a {
   width: 1024px;
   min-height: 80px;
   margin: 0 auto;
+  padding: 40px 20px;
 }
 
 h1 {
   color: #d91e55;
-  font-size: 25px;
-  margin: 10px 0;
+  font-size: 30px;
 }
 
 h2 {
   color: #fdad1a;
-  margin: 10px 0;
+  font-size: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
 }
 
 section {
@@ -33,7 +38,10 @@ ul {
 /* Header */
 header {
   height: 80px;
-  background-color: black;
+  background-color: #191a1c;
+}
+
+header > .container {
   padding: 10px;
   box-sizing: border-box;
 }
@@ -55,12 +63,12 @@ header {
 }
 
 .site-navegation a {
-  color: white;
+  color: #f9fdff;;
   text-transform: uppercase;
 }
 
 .site-navegation li a:hover {
-  border: 1px solid yellow;
+  border: 1px solid #dfc985;
 }
 
 .site-navegation li {
@@ -75,17 +83,38 @@ header {
 
 /* Slider */
 .slider {
-  height: 300px;
+  height: 400px;
   background-color: #d91e55;
 }
 /* End Slider*/
 
 /* Services*/
+.services {
+  background-color: #191a1c;
+}
+
 .services-box {
   width: 320px;  
-  min-height: 300px;
+  min-height: 280px;
   display: inline-block;
-  border: 1px solid black;
+}
+
+.services-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.services-image img {
+  width: 155px;
+  height: 155px;
+  border-radius: 100px;
+  border: 2px solid #f9fdff;
+}
+
+.services-box p {
+  color: #f9fdff;
+  text-align: center;
 }
 /* End Services*/
 
@@ -102,6 +131,6 @@ header {
 footer {
   height: 50px;
   background-color: black;
-  color: white;
+  color: #f9fdff;
 }
 /* End Footer*/
