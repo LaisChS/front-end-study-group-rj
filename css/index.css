@@ -214,6 +214,32 @@ header > .container {
   margin-right: 20px;
 }
 
+.about-skill {
+  width: 720px;
+  height: 40px;
+  background-color: #f9fdff;
+  margin-bottom: 20px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+.about-skill-content {
+  width: 450px;
+  height: 38px;
+  background-color: #822051;
+  color: #f9fdff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.about-skills {
+  margin-top: 40px;
+}
+
+.about-skills h2 {
+  text-align: left;
+}
+
 .about-text {
   color: #f9fdff;
   text-align: center;
