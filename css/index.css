@@ -179,6 +179,10 @@ header > .container {
   box-sizing: border-box;
 }
 
+.works .subtitle::after {
+  background-color: #191a1c;
+}
+
 /* End Works */
 
 /* About */
@@ -247,10 +251,80 @@ header > .container {
 
 /* End About */
 
+/* Contact*/
+
+.contact {
+  background-color: #fdad1a;
+}
+
+.contact-content {
+  width:  100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-content div {
+  display: block;
+}
+
+.contact-content div:first-child {
+  border: 1px solid #f9fdff;
+  padding: 10px;
+  width: 390px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.contact h2, h3 {
+  color: #191a1c;
+}
+
+h3::after {
+  content: "";
+    height: 1px;
+    background: #191a1c;
+    display: block;
+    margin-top: 20px;
+}
+
+.contact-social-media {  
+  width: 380px;
+  margin: 0 auto;
+}
+
+.contact-social-media a {
+  color: #fdad1a;
+}
+
+.contact-social-media li {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: #f9fdff;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.contact .subtitle::after {
+  background-color: #191a1c;
+}
+
+.contact-phone {
+  text-align: center;
+  color: #f9fdff;
+}
+
+/* End Contact*/
+
 /* Footer */
 footer {
-  height: 50px;
   background-color: black;
   color: #f9fdff;
+}
+
+footer > div {
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 /* End Footer */
