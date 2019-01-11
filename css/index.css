@@ -31,10 +31,6 @@ h1, h2, h3 {
   text-align: center;
 }
 
-section {
-  border: 1px solid black;
-}
-
 .subtitle::after {  
   background: #f9fdff;
   content: "";  
@@ -153,8 +149,7 @@ header > .container {
   background-color: #fdad1a;
 }
 
-.works-box {  
-  border: 1px solid black;
+.works-box {
   display: inline-block;  
   height: 250px;
   margin-right: 20px;  
