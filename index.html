@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Womakers Code</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+      crossorigin="anonymous"
+    >
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="logo">
-            <img src="./images/logo.png" alt="Logo" />
+          <img src="./images/logo.png" alt="Logo" />
         </div>
         <aside class="site-navegation">
           <nav>
@@ -26,49 +31,92 @@
     </header>
 
     <!-- Slider -->
-    <section>
-      <div class="container"></div>
+    <section class="slider">
+      <div class="container">
+        <div class="slider-texts">
+          <h1 class="slide-custom-title">bem vind@</h1>
+          <h2 class="slide-custom-title">curabitur iaculis</h2>
+          <p>
+            Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
+            in purus in.
+          </p>
+        </div>
+        <img src="./images/slider01.png" alt="" />
+      </div>
     </section>
     <!-- End Slider -->
     
     <!-- Services -->
-    <section>
+    <section class="services">
       <div class="container">
         <h1>Serviços</h1>
-        <h2>
+        <h2 class="subtitle">
           Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
           in purus in dignissim.
         </h2>
         <div>
-          <div class="services-box"></div>
-          <div class="services-box"></div>
-          <div class="services-box"></div>
+          <div class="services-box">
+            <div class="services-image">
+              <img src="./images/Service1.png" alt="" />
+            </div>            
+            <h2>Websites</h2>
+            <p>
+              Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
+              in purus in.
+            </p>
+          </div>
+          <div class="services-box">
+            <div class="services-image">
+              <img src="./images/Service2.png" alt="" />
+            </div>
+            <h2>Templates</h2>
+            <p>
+              Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
+              in purus in.
+            </p>
+          </div>
+          <div class="services-box">
+            <div class="services-image">
+              <img src="./images/Service3.png" alt="" />
+            </div>
+            <h2>Temas WordPress</h2>
+            <p>
+              Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
+              in purus in.
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!-- End Services -->
 
     <!-- Works -->
-    <section>
+    <section class="works">
       <div class="container">
         <h1>Meus Trabalhos</h1>
-        <h2>
+        <h2 class="subtitle">
           Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
           in purus in dignissim.
         </h2>
         <div>
-          <aside>
+          <aside class="works-menu">
             <ul>
-              <li><a href="#">Tudo</a></li>
-              <li><a href="#">Website</a></li>
-              <li><a href="#">Template</a></li>
-              <li><a href="#">Tema</a></li>
+              <li><a href="#">tudo</a></li>
+              <li><a href="#">website</a></li>
+              <li><a href="#">template</a></li>
+              <li><a href="#">tema</a></li>
               </ul>
           </aside>
           <div>
-            <div class="works-box"></div>
-            <div class="works-box"></div>
-            <div class="works-box"></div>
+            <div class="works-box">
+              <img class="works-image" src="./images/Portfolio01.png" alt="" />
+            </div>
+            <div class="works-box">
+              <img class="works-image" src="./images/Portfolio02.png" alt="" />
+            </div>
+            <div class="works-box">
+              <img class="works-image" src="./images/Portfolio03.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -76,15 +124,30 @@
     <!-- End Works -->
 
     <!-- About -->
-    <section>
+    <section class="about">
       <div class="container">
         <h1>Quem sou eu</h1>
-        <h2>
+        <h2 class="subtitle">
           Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
           in purus in dignissim.
         </h2>
+        <div class="about-image">
+          <img src="./images/photo.png" alt="" />
+        </div>
+        <h3>Joana D'arc</h3>
+        <ul class="about-main-media">
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
         <h2>Sobre mim</h2>
-        <p>
+        <p class="about-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci eros, 
           fermentum nec mi eget, gravida pulvinar quam. Phasellus sed odio facilisis, 
           fermentum mi id, gravida tortor. Nulla non magna odio. In nec interdum sem. 
@@ -92,23 +155,47 @@
           ut tincidunt dui tempus vitae. In in leo nec sapien eleifend ornare in ac dolor. 
           Aliquam vehicula aliquet odio, ut posuere tortor pretium et.
         </p>
-        <h2>Habilidades</h2>
+        <div class="about-skills">          
+          <h2>Habilidades</h2>
+          <div class="about-skill">
+            <div class="about-skill-content">Java Script</div>
+          </div>
+          <div class="about-skill">
+            <div class="about-skill-content">Html & Css</div>
+          </div>
+          <div class="about-skill">
+            <div class="about-skill-content">jQuery</div>
+          </div>
+          <div class="about-skill">
+            <div class="about-skill-content">Wordpress</div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- End About -->
 
     <!-- Contact -->
-    <section>
+    <section class="contact">
       <div class="container">
-        <h1>Contato</h1>
+        <h1 class="subtitle">Contato</h1>
         <h2>
           Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus 
           in purus in dignissim.
         </h2>
-        <div>
-          meuemail@mail.com <br />
-          +55 21 987654-321 <br />
+        <div class="contact-content">
+          <div>meuemail@mail.com</div>
+          <div class="contact-phone">+55 21 987654-321</div>
           <h3>Mídias</h3>
+          <aside class="contact-social-media">
+            <ul>
+              <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fas fa-futbol"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </aside>
         </div>
       </div>
     </section>
