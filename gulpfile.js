@@ -5,7 +5,8 @@ var gulp = require('gulp'), // importando o gulp e outros plugins
     htmlReplace = require('gulp-html-replace'),
     uglify = require('gulp-uglify'),
     usemin = require('gulp-usemin'),
-    cssmin = require('gulp-cssmin');
+    cssmin = require('gulp-cssmin'),
+    browserSync = require('browser-sync');
 
 
 
@@ -35,4 +36,13 @@ gulp.task('usemin', function() {
       'css' : [cssmin]
     }))
     .pipe(gulp.dest('dist'));
+});
+
+gulp.task('server', function(){ /*ESTÁ PEGANDO A ALTERAÇÃO, MAS NÃO ESTÁ ATUALIZANDO A PÁGINA*/
+  browserSync.init({
+      server: {
+          baseDir: 'src'
+      }
+  });
+   gulp.watch('src/**/*').on('change', browserSync.reload); 
 });
