@@ -1,0 +1,31 @@
+{
+  "name": "front-end-study-group-rj",
+  "version": "1.0.0",
+  "description": "Repositório para armazenar desafios e conteúdos do Front-end Study Group RJ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaisChS/front-end-study-group-rj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaisChS/front-end-study-group-rj/issues"
+  },
+  "homepage": "https://github.com/LaisChS/front-end-study-group-rj#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.8",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-html-replace": "^1.5.4",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-usemin": "^0.3.14"
+  }
+}
