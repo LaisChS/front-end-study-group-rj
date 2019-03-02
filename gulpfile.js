@@ -38,7 +38,7 @@ gulp.task('usemin', function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('server', function(){ /*ESTÁ PEGANDO A ALTERAÇÃO, MAS NÃO ESTÁ ATUALIZANDO A PÁGINA*/
+gulp.task('server', function(){ /*ESTÁ ATUALIZANDO A PÁGINA, MAS PRECISO USAR UMA VERSÃO MAIS ATUALIZADA*/
   browserSync.init({
       server: {
           baseDir: 'src'

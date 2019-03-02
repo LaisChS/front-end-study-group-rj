@@ -1,14 +1,22 @@
 /* Generic */
+body{
+  overflow-x: hidden;
+}
+
+section {
+  padding: 20px 0;
+}
+
 a {
   text-decoration: none;
 }
 
-.container {  
+.container {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   min-height: 80px;
-  padding: 40px 20px;  
-  width: 1024px;
-  box-sizing: border-box;
+  width: 90%;
 }
 
 h1 {
@@ -39,8 +47,9 @@ h1, h2, h3 {
   margin-top: 20px;
 }
 
-ul > li {
-  display: inline-block;
+ul {  
+  display: flex;
+  flex-direction: row;
 }
 
 /* End Generic */
@@ -51,13 +60,13 @@ header {
   height: 80px;
 }
 
-header > .container {  
-  box-sizing: border-box;
-  padding: 10px;
+header > .container {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
-  float: left;
   height: 60px;  
   width: 160px;  
 }
@@ -68,7 +77,6 @@ header > .container {
 }
 
 .site-navegation {
-  float: right;
   padding: 20px;
 }
 
@@ -87,13 +95,17 @@ header > .container {
 .slider {  
   background-color: #d91e55;
   height: 400px;
+  padding: 0;
 }
 
-.slider .container {
+.slider .container {  
+  align-content: center;
   background-image: url('../images/Slider.png');
-  height: 100%;
+  flex-direction: row;
+  height: 100%;  
+  justify-content: center;
+  opacity: 0.7;  
   width: 100%;
-  opacity: 0.7;
 }
 
 .slide-custom-title {
@@ -103,14 +115,13 @@ header > .container {
 }
 
 .slider-texts {
-  float: left;
-  margin-left: 160px;
+  width: 40%;
+  align-self: center;
 }
 
 .slider img {
-  float: right;
-  height: 300px;
-  margin-right: 100px;
+  align-self: center;
+  height: 70%;  
 }
 /* End Slider */
 
@@ -119,10 +130,18 @@ header > .container {
   background-color: #191a1c;
 }
 
+.boxs-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%
+}
+
 .services-box {
-  display: inline-block;   
+  display: flex;
+  flex-direction: column;
   min-height: 280px;
-  width: 320px; 
+  width: 320px;
 }
 
 .services-image {
@@ -141,6 +160,7 @@ header > .container {
 .services-box p {
   color: #f9fdff;
   text-align: center;
+  padding: 0 20px;
 }
 /* End Services */
 
@@ -161,8 +181,22 @@ header > .container {
 }
 
 .works-image {
-  height: 250px;  
-  width: 300px;
+  height: 72%;
+}
+
+.works-texts {
+  background-color: #191a1c;
+  padding: 10px;
+  text-align: center;
+  line-height: 23px;
+}
+
+.works-texts p:first-child {
+  color: #fdad1a;
+}
+
+.works-texts p:last-child {
+  color: #f9fdff;
 }
 
 .works-menu {
@@ -200,8 +234,8 @@ header > .container {
 }
 
 .about-image {
+  align-self: center;
   height: 400px;
-  margin: 0 auto;  
   width: 400px;
 }
 
