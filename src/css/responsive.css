@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+
+  header {
+    padding: 40px 20px 0;
+  }
+
+  header > .container, ul, .slider .container {
+    flex-direction: column;
+  }
+
+  ul > li {
+    padding: 20px;
+    font-size: 1.45rem;
+    text-align: center;
+  }
+
+  /*Slider*/
+  .slider-texts, .slide-custom-title {
+    text-align: center;
+  }
+
+  .slider img {
+    width: 80%;
+  }
+
+  .slider-texts {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  /*End Slider*/
+}

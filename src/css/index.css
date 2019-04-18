@@ -1,6 +1,7 @@
 /* Generic */
 body{
   overflow-x: hidden;
+  font-family: "Roboto";
 }
 
 section {
@@ -57,7 +58,7 @@ ul {
 /* Header */
 header {  
   background-color: #191a1c;
-  height: 80px;
+  min-height: 80px;
 }
 
 header > .container {
